@@ -1,0 +1,38 @@
+{
+  "listCue": [
+    
+    
+    
+    {
+      "name": "Cue_1 item avocado",
+      "role": "romapres",
+      "target": { "type": "glb",
+                  "dest": "url",
+                  "src":  "https://github.com/KhronosGroup/glTF-Sample-Models/raw/master/2.0/Avocado/glTF-Binary/Avocado.glb"},
+      "action": {"type": "spawn_item",
+                 "pos": { "x": 35.353, "y": 1.0766, "z": -11.774 },
+                 "rot": {"x": 0, "y":1.57, "z":0},
+                 "scale": {"x": 10, "y":10, "z":10}},
+      "trig": {"type": "button",
+               "time": 0}
+    },
+    {
+      "name": "Cue_2 item video",
+      "role": "romapres",
+      "target": { "type": "video",
+                  "dest": "url",
+                  "src":  "https://www.youtube.com/watch?v=YE7VzlLtp-4"},
+      "action": { "type": "spawn_item",
+                  "pos": { "x": 35.353, "y": 1.0766, "z": -11.774 },
+                  "rot": {"x": 0, "y":-1.57, "z":0},
+                  "scale": {"x": 1.67, "y":1.67, "z":1.67},
+                  "volume":0.9,
+                  "distanceModel": "linear",
+                  "rolloffFactor":1,
+                  "refDistance":5,
+                  "maxDistance":10},
+      "trig": {"type": "button",
+               "time": 0}
+    }
+ ]
+}
