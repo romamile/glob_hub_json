@@ -34,5 +34,14 @@
       "trig": {"type": "button",
                "time": 0}
     }
+ ],
+    "listBeam": [
+    {
+      "name": "seats",
+      "room": "check",
+      "pos": { "x": 3.5706421879729735, "y": -1000002.0127410240265893, "z": 3.348766973422966 },
+      "radius": 2,
+      "link": "https://hello.com"
+    }
  ]
 }
